@@ -1,0 +1,6 @@
+Flask
+requests
+joblib
+scikit-learn
+vaderSentiment
+tailwindcss
