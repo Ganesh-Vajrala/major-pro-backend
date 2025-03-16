@@ -2,7 +2,7 @@ from transformers import pipeline
 import google.generativeai as genai
 import os
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCMD7OGeJv64eYwRNiqREAF3UxT5woS3jI"
+os.environ["GOOGLE_API_KEY"] = "<Your API>"
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 def generate_summary(product_description, reviews):
