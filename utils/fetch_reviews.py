@@ -98,7 +98,7 @@ def fetch_reviews(platform, link, model_choice, max_pages=5):
             print("post ID:", postid)
         else:
             return
-        client = ApifyClient("apify_api_jUhN2LbzwPAPrFQ55cKBM1VrS92Nj23DsH0h")
+        client = ApifyClient("<Your API KEY>")
 
         run_input = {
             "directUrls": [link],
